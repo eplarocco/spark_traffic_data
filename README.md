@@ -1,6 +1,6 @@
 # Traffic Accident Severity in the Continental United States
 
-### Research question
+## Research question
 
 What are the most influential variables on the severity of accidents?
 
@@ -10,17 +10,29 @@ Objective: want to minimize the wait time in traffic for  the shortest ride
 Want to maximize true positives 
 
 
-### Data
+## Data
 
-https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents/data
+Downloaded original dataset from: https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents/data
 
 Size: 3.06 GB - 7.7 million rows, 46 columns
 
-### Modeling
-3 models: Logistic Regression, Random Forest, and Gradient Boosted Trees
+Additional data downloaded from census sites and cleaned data located in data folder
+
+Final combined and cleaned dataset used for modeling also located in data folder
+
+## Modeling
+
+01_Logistic_Regression
+
+02_Random_Forest
+
+03_Gradient_Boosted_Trees
 
 ### Model Evaluation
 Optimized for recall, looked at precision, f1, and accuracy as well
 
-### Sensitivity analysis
+## Sensitivity analysis
 Conducted Sensitivity Analysis for Random Forest
+
+## Extras
+Folder included to house additional work not included in final results
